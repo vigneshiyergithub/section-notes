@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Section Notes",
+  "version": "1.4.0",
+  "description": "Select website regions, leave comments, and export a screenshot review ZIP.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Start Section Notes"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
